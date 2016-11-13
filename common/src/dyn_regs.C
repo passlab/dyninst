@@ -1863,7 +1863,7 @@ MachRegister MachRegister::getArchReg(unsigned int regNum, Dyninst::Architecture
             case 100: return Dyninst::aarch64::sp;
             case 101: return Dyninst::aarch64::pc;
             case 102: return Dyninst::aarch64::pstate;
-            case 103: return Dyninst::aarch64::zr;
+            case 103: return Dyninst::aarch64::xzr;
          }
       default:
          return InvalidReg;
